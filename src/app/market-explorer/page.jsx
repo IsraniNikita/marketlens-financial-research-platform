@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import Link from 'next/link'
 import { useSelector } from 'react-redux'
 import { Search } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -149,8 +150,8 @@ export default function MarketExplorer() {
                         <td className="px-4 py-3 text-right font-mono text-muted">{s.eps?.toFixed(2)}</td>
                         <td className="px-4 py-3 text-right"><ECharts option={miniOption} style={{ width: 60, height: 24 }} /></td>
                         <td className="px-4 py-3 text-right">
-                          <Button size="sm" asChild variant="outline"><a href={`/company-research?symbol=${s.symbol}`}>View</a></Button>
-                          <Button size="sm" asChild variant="outline" className="ml-1"><a href={`/watchlists?add=${s.symbol}`}>+Watch</a></Button>
+                          <Button size="sm" asChild variant="outline"><Link href={`/company-research?symbol=${s.symbol}`}>View</Link></Button>
+                          <Button size="sm" asChild variant="outline" className="ml-1"><Link href={`/watchlists?add=${s.symbol}`}>+Watch</Link></Button>
                         </td>
                       </tr>
                     ))}
