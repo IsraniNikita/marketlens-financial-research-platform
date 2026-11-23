@@ -1,0 +1,12 @@
+export const STOCKS_MORE_A = [
+  { symbol:'ULTRACEMCO', name:'UltraTech Cement', exchange:'NSE', sector:'Real Estate', price:11200.40, change:-32.60, changePct:-0.29, marketCap:325000000000, volume:210000, pe:42.1, eps:266.0, high52:11800.0, low52:8600.0, open:11250.0, prevClose:11233.00 },
+  { symbol:'NESTLEIND', name:'Nestle India Ltd', exchange:'NSE', sector:'FMCG', price:2450.60, change:15.20, changePct:0.62, marketCap:235000000000, volume:110000, pe:72.3, eps:33.9, high52:2700.0, low52:2100.0, open:2440.0, prevClose:2435.40 },
+  { symbol:'WIPRO', name:'Wipro Ltd', exchange:'NSE', sector:'IT', price:485.30, change:4.20, changePct:0.87, marketCap:265000000000, volume:1950000, pe:24.1, eps:20.1, high52:545.0, low52:390.0, open:483.0, prevClose:481.10 },
+  { symbol:'ONGC', name:'Oil & Natural Gas Corp', exchange:'NSE', sector:'Energy', price:285.40, change:3.80, changePct:1.35, marketCap:355000000000, volume:2500000, pe:8.9, eps:32.1, high52:310.0, low52:210.0, open:283.0, prevClose:281.60 },
+  { symbol:'TATAMOTORS', name:'Tata Motors Ltd', exchange:'NSE', sector:'Automobile', price:985.60, change:14.20, changePct:1.46, marketCap:325000000000, volume:3400000, pe:16.4, eps:60.1, high52:1080.0, low52:560.0, open:978.0, prevClose:971.40 },
+  { symbol:'ADANIENT', name:'Adani Enterprises', exchange:'NSE', sector:'Energy', price:3240.50, change:-55.20, changePct:-1.67, marketCap:365000000000, volume:980000, pe:88.2, eps:36.7, high52:4200.0, low52:2150.0, open:3300.0, prevClose:3295.70 },
+  { symbol:'POWERGRID', name:'Power Grid Corp', exchange:'NSE', sector:'Energy', price:315.80, change:2.10, changePct:0.67, marketCap:295000000000, volume:1800000, pe:15.3, eps:20.6, high52:340.0, low52:230.0, open:314.0, prevClose:313.70 },
+  { symbol:'NTPC', name:'NTPC Ltd', exchange:'NSE', sector:'Energy', price:365.20, change:6.40, changePct:1.78, marketCap:355000000000, volume:2100000, pe:13.1, eps:27.9, high52:400.0, low52:260.0, open:361.0, prevClose:358.80 },
+  { symbol:'HCLTECH', name:'HCL Technologies', exchange:'NSE', sector:'IT', price:1450.30, change:-9.10, changePct:-0.62, marketCap:395000000000, volume:980000, pe:23.4, eps:62.0, high52:1650.0, low52:1180.0, open:1455.0, prevClose:1459.40 },
+  { symbol:'LT', name:'Larsen & Toubro Ltd', exchange:'NSE', sector:'Real Estate', price:3420.70, change:21.50, changePct:0.63, marketCap:465000000000, volume:650000, pe:40.2, eps:85.1, high52:3700.0, low52:2600.0, open:3400.0, prevClose:3399.20 },
+]
