@@ -4,6 +4,8 @@
 
 MarketLens is a responsive financial research workspace built with Next.js and React. It brings market exploration, company research, technical analysis, portfolio views, and paper trading into a single multi-page application. Its 16 modules share a stock universe and Redux Toolkit state so a symbol selected in one workflow can be carried into another.
 
+**Live demo:** [Open MarketLens](https://israninikita.github.io/marketlens-financial-research-platform/)
+
 **This is a frontend demonstration, not a financial data or trading service.** Market values, news, company financials, charts, and order-book levels are bundled, generated, or simulated locally. MarketLens does not connect to a backend, live quote/news provider, broker, or exchange; it cannot place real orders and is not investment advice.
 
 ## What you can do
@@ -133,6 +135,10 @@ npm run start
 ```
 
 Available scripts are `dev`, `build`, `start`, and `lint`. There is currently no automated unit- or browser-test script.
+
+### Deploy to GitHub Pages
+
+The `Deploy to GitHub Pages` workflow runs on every push to `main`. It lints the project, creates a static export, and publishes it to the live demo URL above. The repository's **Settings → Pages → Build and deployment → Source** must be set to **GitHub Actions**.
 
 ## Data boundaries and known limitations
 
